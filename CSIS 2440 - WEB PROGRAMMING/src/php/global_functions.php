@@ -36,7 +36,7 @@
         $nav .= ($lastSlash < 11 ? 
             '<a href="index.php" class="navbar-brand"><img src="src/img/iconfinder_icon_animal_cachorro_3316536.png"></a>'
             :
-            '<a href="../index.php" class="navbar-brand"><img src="../img/iconfinder_icon_animal_cachorro_3316536.png"></a>');
+            '<a href="../index.php" class="navbar-brand"><img src="../src/img/iconfinder_icon_animal_cachorro_3316536.png"></a>');
 
         $nav .= 
             '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

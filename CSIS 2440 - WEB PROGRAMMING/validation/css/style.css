@@ -1,12 +1,3 @@
-.bg-nav { background-color: #25292e; }
-.btn-grey {
-    border: 1px solid #929496;
-    color: #929496;
-}
-.btn-grey:hover {
-    border: 1px solid white;
-    color: #c9cacb;
-}
 .btn-rnd{ 
     border-radius: 5px; 
     width: 80px;
