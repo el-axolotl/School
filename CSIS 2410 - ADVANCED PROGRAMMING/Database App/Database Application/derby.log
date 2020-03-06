@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Feb 24 09:48:01 MST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.3 - (1557168): instance a816c00e-0169-2068-02c0-00000e5fc0f0 
+on database directory /Users/chris.munoz/Documents/School/CSIS 2410/CSIS-2410-A02-Database-App/A02 Database Application/myBasketBallDB1 with class loader sun.misc.Launcher$AppClassLoader@4e25154f 
+Loaded from file:/Users/chris.munoz/Documents/School/CSIS%202410/CSIS-2410-A02-Database-App/A02%20Database%20Application/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=/Users/chris.munoz/Documents/School/CSIS 2410/CSIS-2410-A02-Database-App/A02 Database Application
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.2
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,15 @@
+
+.footer{
+    background: #343a40;
+    color: rgba(255,255,255,.5);
+    height: 100px;
+}
+.footer-section .social-media{
+    margin-top: 50px;
+}
+
+@media  (max-width: 768px) {
+    .mr-3{
+        visibility: hidden;
+    }
+}

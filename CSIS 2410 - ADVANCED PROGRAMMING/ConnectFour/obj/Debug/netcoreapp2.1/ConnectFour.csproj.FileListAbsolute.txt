@@ -1,0 +1,11 @@
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.csprojAssemblyReference.cache
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.csproj.CoreCompileInputs.cache
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.AssemblyInfoInputs.cache
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.AssemblyInfo.cs
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/bin/Debug/netcoreapp2.1/ConnectFour.deps.json
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/bin/Debug/netcoreapp2.1/ConnectFour.runtimeconfig.json
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/bin/Debug/netcoreapp2.1/ConnectFour.runtimeconfig.dev.json
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/bin/Debug/netcoreapp2.1/ConnectFour.dll
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/bin/Debug/netcoreapp2.1/ConnectFour.pdb
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.dll
+/Users/chris.munoz/Documents/School/CSIS 2410/A04-Connect-Four/ConnectFour/ConnectFour/obj/Debug/netcoreapp2.1/ConnectFour.pdb

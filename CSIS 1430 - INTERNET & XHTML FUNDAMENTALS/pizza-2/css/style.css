@@ -1,0 +1,137 @@
+/* Color Pallete: #30011E, #533747, #6B6D76, #75DBCD, #B5FFE9, pink, white */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 43%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #B5FFE9;
+}
+.menu{
+    display: inline-block;
+    margin-left: 41%;
+}
+li{
+    display: inline;
+}
+a{
+    padding-bottom: 3px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 10px;
+    margin: -1px;
+    cursor: pointer;
+    color: #B5FFE9;
+    border-radius: 20% 20% 0 0;
+    border-left: 2px solid pink;
+    border-top: 2px solid pink;
+    border-right: 2px solid pink;
+    background: #30011E;
+}
+a.active{
+    padding-top: 20px;
+    color: pink;
+    background-color: #6B6D76;
+    border-top: 2px dotted pink;
+    border-left: 2px solid pink;
+    border-right: 2px solid pink;
+    font-size: 25px;
+}
+a:hover{
+    transition: .5s;
+    margin: 5px;
+    padding-top: 30px;
+    color: pink;
+    background-color: #533747;
+    border: 2px solid pink;
+}
+div{
+    color: white;
+    font-size: 30px;
+}
+div.orderWrapper{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 115px;
+    margin-left: 27%;
+    border-radius: 5%;
+    background: #30011E;
+}
+div.contactDetails{
+    padding: 40px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 33%;
+    background: #533747;
+    border-radius: 5%;
+    border: 5px dotted pink;
+}
+div.address2{
+    display: inline-block;
+    margin-left: 87px;
+}
+div.pizzaDetails{
+    padding: 40px;
+    width: 731px;
+    margin-top: 20px;
+    margin-left: 7%;
+    background: #533747;
+    border-radius: 5%;
+    border: 5px dotted pink;
+}
+div.crustMenu, div.buttons{
+    margin-left: 40%;
+}
+div.pizzaSize{
+    display: inline;
+}
+div.pizzaToppings{
+    display: inline;
+}
+h3{
+    display: inline;
+}
+div.contactWrapper{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 165px;
+    margin-left: 35%;
+    border-radius: 5%;
+    background: #30011E;
+}
+div.basicWrapper p{
+    display: inline-block;
+    width: 733px;
+}
+div.basicWrapper{
+    display: inline-block;
+    padding: 50px;
+    margin-left: 27%;
+    border-radius: 5%;
+    background: #30011E;
+}
+div.basicContent{
+    padding: 50px;
+}
+div.spacer{
+    margin: 100px;
+}
+img{
+    margin-left: 37%;
+    margin-top: -2%;
+    margin-bottom: -9%;
+}
+html{
+    display: inline;
+    justify-content: center;
+    background-size: cover;
+    background-image: url('../img/Wood.jpg');
+    background-repeat: no-repeat;
+}

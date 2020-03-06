@@ -1,0 +1,33 @@
+
+.container{
+    text-align: center;
+    background-color: #957bbe;
+    border-radius: 10px;
+}
+
+input{
+    text-align: center;
+}
+.container{
+    margin-top: 50px;
+}
+.output{
+    font-size: 30px;
+}
+.footer{
+    background: #343a40;
+    color: rgba(255,255,255,.5);
+    height: 100px;
+}
+.footer-section .social-media{
+    margin-top: 50px;
+}
+.container{
+    margin-bottom: 10%;
+}
+
+@media  (max-width: 768px) {
+    .mr-3{
+        visibility: hidden;
+    }
+}

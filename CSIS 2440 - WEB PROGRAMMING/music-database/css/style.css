@@ -1,0 +1,28 @@
+table, th, td { border: 2px solid black; }
+.bg-nav { background-color: #25292e; }
+.btn-grey {
+    border: 1px solid #929496;
+    color: #929496;
+}
+.btn-grey:hover {
+    border: 1px solid white;
+    color: #c9cacb;
+}
+.btn-rnd{ 
+    border-radius: 5px; 
+    width: 80px;
+}
+.full-width{ width: 100%; }
+.half-width{ width: 50%; }
+.rest-width{ width: 49%; }
+.required{ color: red; }
+.contact{ color: #929496; }
+.box{
+    background-color: white;
+    min-width: 600px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.min-width-405{
+    min-width: 405px;
+    max-width: 405px;
+}

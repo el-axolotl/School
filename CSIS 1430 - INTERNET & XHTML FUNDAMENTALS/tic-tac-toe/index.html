@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!--NAVBAR-->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html"><img src="../src/img/iconfinder_icon_animal_cachorro_3316536.png"
+            alt=""></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              School Projects
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../tables/index.html">YouTube Videos (Learning Tables)</a>
+              <a class="dropdown-item" href="../pizza-1/index.html">Pizza 1 (Learning Navigation Menus)</a>
+              <a class="dropdown-item" href="../image-map/index.html">Mapping Utah (Learning Image Map)</a>
+              <a class="dropdown-item" href="../little-boxes/index.html">Little Boxes (Manipulating Divs)</a>
+              <a class="dropdown-item" href="../pizza-2/index.html">Pizza 2 (Learning CSS)</a>
+              <a class="dropdown-item" href="../1430-midterm/index.html">Midterm (CSS ZenGarden Mimic)</a>
+              <a class="dropdown-item" href="../js-birthday/index.html">Happy Birthday Program (Learning
+                JavaScript)</a>
+              <a class="dropdown-item" href="../mad-lib/index.html">Play Mad Libs! (JavaScript Continued)</a>
+              <a class="dropdown-item" href="../lottery/index.html">Lottery tickets (Learning DOM
+                Manipulation)</a>
+              <a class="dropdown-item" href="../guess/index.html">Guessing Game (Learning Bootstrap)</a>
+              <a class="dropdown-item" href="../tic-tac-toe/index.html">Tic-Tac-Toe</a>
+            </div>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Side Projects
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../dice-game/index.html">Dice Game</a>
+            </div>
+          </li>
+        </ul>
+      
+        <div class="mr-3">
+          <form class="form-inline my-2 collapse navbar-collapse">
+            <input class="form-control mr-md-2" type="search" placeholder="Doesn't really search" aria-label="search">
+            <button class="btn btn-outline-success my-2" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!--END NAVBAR-->
+
+    <div class="container" id="paper">
+      <div class="container d-flex ml-0" id="player-info">
+        <div class="container d-flex flex-fill justify-content-center" id="player1"></div>
+        <div class="container d-flex flex-fill justify-content-center inactive" id="player2"></div>
+      </div>
+      <div class="container d-flex pt-3" id="score-info">
+        <div class="container d-flex flex-fill justify-content-center" id="score1">Score: 0</div>
+        <div class="container d-flex flex-fill justify-content-center" id="score2">Score: 0</div>
+      </div>
+      <div class="container d-flex pt-3" id="draw-info">
+        <div class="container d-flex flex-fill justify-content-center" id="draw1">Draws: 0</div>
+        <div class="container d-flex flex-fill justify-content-center" id="draw2">Draws: 0</div>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="board">
+          <div class="row upper"><button class="col px-0 left upper sqr" id="btn0"></button><button class="col px-0 middle upper sqr" id="btn1"></button><button class="col px-0 right upper sqr" id="btn2"></button></div>
+          <div class="row"><button class="col px-0 left sqr" id="btn3"></button><button class="col px-0 middle sqr" id="btn4"></button><button class="col px-0 right sqr" id="btn5"></button></div>
+          <div class="row lower"><button class="col px-0 left lower sqr" id="btn6"></button><button class="col px-0 middle lower sqr" id="btn7"></button><button class="col px-0 right lower sqr" id="btn8"></button></div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center mt-5" id="restart-container">
+        <button class="restart" id="restart">Restart</button>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer d-flex justify-content-center">
+        <div class="footer-content">
+            <div class="footer-section social-media mt-4">
+                <a href="https://www.facebook.com/UtahHumane/"><img class="mx-1" src="../src/img/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/cancerresearchinstitute/?hl=en"><img class="mx-1"
+                        src="../src/img/instagram.png" alt=""></a>
+                <a href="https://twitter.com/realgrumpycat?lang=en"><img class="mx-1" src="../src/img/twitter.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!--//Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

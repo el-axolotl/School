@@ -1,0 +1,14 @@
+.bg-nav {background-color: #25292e; }
+.btn-grey {
+    border: 1px solid #929496;
+    color: #929496;
+}
+.btn-grey:hover {
+    border: 1px solid white;
+    color: #c9cacb;
+}
+body{
+    background-image: url('../img/19366.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

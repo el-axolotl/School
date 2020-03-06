@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Red Hot Chili Peppers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Red Hot Chili Peppers</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#mycarousel"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+          <li><a href="#albums"><span class="glyphicon glyphicon-music" aria-hidden="true"></span> ALBUMS</a></li>
+          <li><a href="#tour"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> TOUR</a></li>
+          <li><a href="#contactUs"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> CONTACT</a>
+          </li>
+          <li><a href=""><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> CART <span class="badge badge-secondary" id="merchBadge">0</span></a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#merch">Merchandise</a></li>
+              <li><a href="#map">Map</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- CAROUSEL START -->
+  <div class="carousel slide" data-ride="carousel" id="mycarousel">
+
+    <!-- INDICATORS -->
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mycarousel" data-slide-to="1"></li>
+      <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- WRAPPER FOR SLIDES -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/1.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Red Hot Chili Peppers</h3>
+          <p>The whole band</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/2.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Anthony Kiedis</h3>
+          <p>Performing on stage</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/3.jpg" alt="">
+        <div class="carousel-caption">
+          <h3>Anthony Kiedis</h3>
+          <p>Singing</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- CAROUSEL END -->
+
+  <div class="container text-center" id="albums">
+
+    <!-- INTRO START -->
+    <h3>Red Hot Chili Peppers Fan Page</h3>
+    <img src="img/rhcp.png" class="logo" alt="Red Hot Chili Peppers">
+    <p><em>By Christopher Munoz</em></p>
+    <p>I've created a fan page about the Red Hot Chili Peppers for this assignment.</p>
+    <br>
+    <!-- INTRO END -->
+
+    <!-- IMAGES START -->
+    <div class="row">
+      <div class="col-sm-4">
+        <p><strong>The Getaway</strong></p><br>
+        <a href="#demo" data-toggle="collapse">
+          <img src="img/getaway.jpg" class="img-circle person" alt="The Getaway">
+        </a>
+        <div class="collapse" id="demo">
+          <p>Released in 2016</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p><strong>Californication</strong></p><br>
+        <a href="#demo2" data-toggle="collapse">
+          <img src="img/californication.jpg" class="img-circle person" alt="Californication">
+        </a>
+        <div class="collapse" id="demo2">
+          <p>Released in 1999</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <p><strong>I'm With You</strong></p><br>
+        <a href="#demo3" data-toggle="collapse">
+          <img src="img/im_with_you.jpg" class="img-circle person" alt="I'm With You">
+        </a>
+        <div class="collapse" id="demo3">
+          <p>Released in 2011</p>
+        </div>
+      </div>
+    </div>
+    <!-- IMAGES END -->
+  </div>
+
+  <!-- TOGGABLE TABS START -->
+  <div class="container">
+    <h3 class="text-center" id="band">MEET THE BAND</h3>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Anthony</a></li>
+      <li><a data-toggle="tab" href="#menu1">Michael</a></li>
+      <li><a data-toggle="tab" href="#menu2">Chad</a></li>
+      <li><a data-toggle="tab" href="#menu3">Josh</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade in active">
+        <h2>Anthony Kiedis, Lead Vocals</h2>
+        <p>Member since 1983</p>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <h2>Michael Balzary, Bass</h2>
+        <p>Member since 1983</p>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h2>Chad Smith, Drums</h2>
+        <p>Member since 1988</p>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <h2>Josh Klinghoffer, Guitar</h2>
+        <p>Member since 2009</p>
+      </div>
+    </div>
+  </div>
+  <!-- TOGGABLE TABS END -->
+
+
+  <!-- TICKET INFO START -->
+  <div class="bg-1" id="tour">
+    <div class="container">
+      <h3 class="text-center">FAKE TOURS</h3>
+      <p class="text-center">These dates are not real</p>
+
+      <ul class="list-group">
+        <li class="list-group-item">October<span class="badge badge-pill badge-danger">Sold Out!</span></li>
+        <li class="list-group-item">November<span class="badge badge-pill badge-danger">Sold Out!</span></li>
+        <li class="list-group-item">December<span class="badge badge-pill badge-success">Available!</span></li>
+      </ul>
+
+      <!-- THUMBNAILS START -->
+      <div class="row text-center thumbnails bg-2">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="img/la.jpeg" alt="LA" class="sepia">
+            <p><strong>Los Angeles</strong></p>
+            <p>Sat. December 12th</p>
+            <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="img/slc.jpg" alt="SLC" class="sepia">
+            <p><strong>Salt Lake City</strong></p>
+            <p>Sat. December 19th</p>
+            <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="img/seattle.jpg" alt="SEATTLE" class="sepia">
+            <p><strong>Seattle</strong></p>
+            <p>Sat. December 26th</p>
+            <button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+      <!-- THUMBNAILS END -->
+
+    </div>
+  </div>
+  <!-- TICKET INFO END -->
+
+  <!-- MODAL START -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- MODAL CONTENT -->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input type="number" class="form-control" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input type="text" class="form-control" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-block btn-lg btn-danger">Pay <span
+                class="glyphicon glyphicon-ok-sign"></span></button>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p> Need <a href="#">Help</a>?</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- MODAL END -->
+
+  <!-- CONTACT US START -->
+  <div class="container" id="contactUs">
+
+    <h3 class="text-center">Contact</h3>
+    <p class="text-center pad-btm-30">Leave us a message after the beep. <br><em>*beeeeep*</em></p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <p><h3>Headquarters:</h3></p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Salt Lake City, UT</p>
+        <p><span class="glyphicon glyphicon-phone"></span> Phone: +00 1515151515</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control margin-top-minus-50" id="comments" name="comments" placeholder="Comment"
+          rows="5"></textarea>
+        <div class="row margin-top-30">
+          <div class="col-md-12 form-group">
+            <button class="btn btn-lg btn-danger pull-right" type="submit">Send</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- CONTACT US END -->
+
+  <!-- MERCH START -->
+  <div class="container">
+    <h3 class="text-center">MERCHANDISE</h3>
+    <p class="text-center">This is not a real store</p>
+
+    <!-- THUMBNAILS START -->
+    <div class="row text-center thumbnails" id="merch">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/hoodie.png" alt="hoodie" class="merch-img">
+          <p><strong>Hoodie</strong></p>
+          <p>$15.00</p>
+          <p><a href="https://www.amazon.com/Peppers-Hoodie-Classic-Pullover-Sweatshirt/dp/B07MW43JP8/ref=sr_1_3?">Buy
+              on Amazon</a></p>
+          <button class="btn btn-lg btn-danger" id="add1">Add To Cart</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/shirt.png" alt="white-shirt" class="merch-img">
+          <p><strong>White Shirt</strong></p>
+          <p>$17.99</p>
+          <p><a href="https://www.amazon.com/Red-Hot-Chili-Peppers-Athletic/dp/B07947RPD5/ref=sr_1_15?">Buy on
+              Amazon</a></p>
+          <button class="btn btn-lg btn-danger" id="add2">Add To Cart</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/shirt2.png" alt="black-shirt" class="merch-img">
+          <p><strong>Black Shirt</strong></p>
+          <p>$11.99</p>
+          <p><a href="https://www.amazon.com/Chili-Peppers-Vintage-Distressed-T-Shirt/dp/B01B3WK9DQ/ref=sr_1_18?">Buy on
+              Amazon</a></p>
+          <button class="btn btn-lg btn-danger" id="add3">Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- THUMBNAILS END -->
+
+  </div>
+  <!-- MERCH END -->
+
+  <div class="container">
+    <img src="img/map.png" alt="Map" id="map">
+  </div>
+  
+
+  <!-- FOOTER START -->
+  <footer class="text-center">
+    <a class="up-arrow" href="#mycarousel" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <a href="https://www.facebook.com/ChiliPeppers/"><img src="img/facebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/chilipeppers/"><img src="img/instagram.png" alt="Instagram"></a>
+    <a href="https://twitter.com/ChiliPeppers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/twitter.png" alt="Twitter"></a>
+  </footer>
+  <!-- FOOTER END -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

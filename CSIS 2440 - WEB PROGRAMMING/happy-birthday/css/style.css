@@ -1,0 +1,9 @@
+.img-fluid{
+    max-height: 50%;
+    max-width: 50%;
+}
+.img-fluid:hover{
+    transform: skew(90deg);
+    animation: skew 3s;
+    transition: all 5s;
+}

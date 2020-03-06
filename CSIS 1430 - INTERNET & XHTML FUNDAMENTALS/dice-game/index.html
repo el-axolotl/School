@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index.html"><img src="../src/img/iconfinder_icon_animal_cachorro_3316536.png"
+            alt=""></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              School Projects
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../tables/index.html">YouTube Videos (Learning Tables)</a>
+              <a class="dropdown-item" href="../pizza-1/index.html">Pizza 1 (Learning Navigation Menus)</a>
+              <a class="dropdown-item" href="../image-map/index.html">Mapping Utah (Learning Image Map)</a>
+              <a class="dropdown-item" href="../little-boxes/index.html">Little Boxes (Manipulating Divs)</a>
+              <a class="dropdown-item" href="../pizza-2/index.html">Pizza 2 (Learning CSS)</a>
+              <a class="dropdown-item" href="../1430-midterm/index.html">Midterm (CSS ZenGarden Mimic)</a>
+              <a class="dropdown-item" href="../js-birthday/index.html">Happy Birthday Program (Learning
+                JavaScript)</a>
+              <a class="dropdown-item" href="../mad-lib/index.html">Play Mad Libs! (JavaScript Continued)</a>
+              <a class="dropdown-item" href="../lottery/index.html">Lottery tickets (Learning DOM
+                Manipulation)</a>
+              <a class="dropdown-item" href="../guess/index.html">Guessing Game (Learning Bootstrap)</a>
+              <a class="dropdown-item" href="../tic-tac-toe/index.html">Tic-Tac-Toe</a>
+            </div>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Side Projects
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../dice-game/index.html">Dice Game</a>
+            </div>
+          </li>
+        </ul>
+      
+        <div class="mr-3">
+          <form class="form-inline my-2 collapse navbar-collapse">
+            <input class="form-control mr-md-2" type="search" placeholder="Doesn't really search" aria-label="search">
+            <button class="btn btn-outline-success my-2" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!--END NAVBAR-->
+    
+    
+    <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </div>
+
+        <div class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>
+
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+        <img src="img/dice-5.png" alt="Dice" class="dice">
+    </div>
+
+    <script src="js/app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

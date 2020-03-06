@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+main
+{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+.crust
+{
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 700px solid #ffcf60;
+}
+.cheese
+{
+    position: absolute;
+    border-left: 330px solid transparent;
+    border-right: 330px solid transparent;
+    border-top: 680px solid #ffbe0a;
+}
+.crust_oval
+{
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    width: 720px;
+    height: 100px;
+    border-radius: 100px / 50px;
+    background: #d17e30;
+}
+.pepperoni_one
+{
+    position: absolute;
+    z-index: 1;
+    top: 165px;
+    left: 600px;
+    width: 100px;
+    height: 100px;
+    background:red;
+    border-radius: 50%;
+}
+.pepperoni_two
+{
+    position: absolute;
+    z-index: 1;
+    top: 283px;
+    left: 860px;
+    width: 110px;
+    height: 110px;
+    background:red;
+    border-radius: 50%;
+}
+.pepperoni_three
+{
+    position: absolute;
+    z-index: 1;
+    top: 541px;
+    left: 723px;
+    width: 120px;
+    height: 120px;
+    background:red;
+    border-radius: 50%;
+}
+.pepperoni_cutoff
+{
+    position: absolute;
+    z-index: 2;
+    border-left: 350px solid white;
+    border-right: 350px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 700px solid transparent;
+}
+.green_pepper_one
+{
+    position: absolute;
+    z-index: 1;
+    top: 291px;
+    left: 710px;
+    display: block;
+    width: 50px;
+    height: 180px;
+    background-color: #29aa6f;
+    border-radius: 50% 70% 50% 40% / 20% 60% 50% 80%;
+    transform: rotate(-0.08turn);
+}
+.green_pepper_two
+{
+    position: absolute;
+    z-index: 1;
+    top: 388px;
+    left: 915px;
+    display: block;
+    width: 50px;
+    height: 180px;
+    background-color: #29aa6f;
+    border-radius: 50% 70% 50% 40% / 20% 60% 50% 80%;
+    transform: skew(-0.06turn, 18deg);
+}
+.eye_one
+{
+    position: absolute;
+    z-index: 2;
+    top: 188px;
+    left: 692px;
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 50%;
+}
+.eye_two
+{
+    position: absolute;
+    z-index: 2;
+    top: 188px;
+    left: 892px;
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 50%;
+}
+.mouth
+{
+    position: absolute;
+    z-index: 2;
+    top: 329px;
+    left: 809px;
+    width: 80px;
+    height: 40px;
+    border-radius: 0 0 90px 90px;
+    background: black;
+}
+.sparkle_one_large
+{
+    position: absolute;
+    z-index: 2;
+    top: 199px;
+    left: 718px;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+}
+.sparkle_one_small
+{
+    position: absolute;
+    z-index: 2;
+    top: 233px;
+    left: 718px;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50%;
+}
+.sparkle_two_large
+{
+    position: absolute;
+    z-index: 2;
+    top: 199px;
+    left: 920px;
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+}
+.sparkle_two_small
+{
+    position: absolute;
+    z-index: 2;
+    top: 233px;
+    left: 918px;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50%;
+}
+p
+{
+    font-size: 100px;
+    position: absolute;
+    top: 350px;
+    left: 1086px;
+    font-family: 'Permanent Marker', cursive;
+}
